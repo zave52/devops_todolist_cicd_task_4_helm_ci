@@ -10,7 +10,7 @@ on:
 
 env:
   PythonVersion: 3.8
-  DockerImageName: todoapp
+  DockerImageName: todoapp # it's correct name for my docker repo
 
 jobs:
   python-ci:
