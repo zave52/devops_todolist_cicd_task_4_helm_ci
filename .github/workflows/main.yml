@@ -89,7 +89,6 @@ jobs:
 
   helm-ci:
     name: Helm CI
-    if: github.ref_name == 'main'
     needs: python-ci
     runs-on: ubuntu-latest
 
